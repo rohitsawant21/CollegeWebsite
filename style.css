@@ -1,0 +1,224 @@
+
+body{
+    overflow-x: hidden;
+}
+
+/* index page */
+
+/* starting heading container  */
+#Heading-container{
+    padding: 11px;    
+    background-position: center;
+    background-color: whitesmoke;
+}
+#Heading-container h5{
+ 
+    font-family: 'Akaya Telivigala', cursive;
+    color: black;
+}
+#Heading-container h6{
+    font-family: 'Akaya Telivigala', cursive;
+}
+#Heading-container h3{
+
+    font-family: 'Dela Gothic One', cursive;
+    color: #4b2096;
+}
+#logo1 {
+    /* padding-right: 157px; */
+    /* padding-left: 79px;    */
+}
+#logo2 .circle{
+    border-radius: 91px;
+}
+
+/* navigation bar */
+#navbar{
+    overflow-y: hidden;
+}
+#navbar li a{
+    color: white;
+    font-size: 21px;
+}
+
+/* images slideshow */
+#img-container{
+    padding: 20px; /* padding : 10px*/
+    background-color: rgb(243 243 243);
+}
+#img-container img{
+    float: left;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* college info container */
+#college-info h5{
+    color:#607D8B;
+}
+
+/* our respected teacher */
+#teacher-info{
+    padding: 10px;
+    background-color: #e8eef5;
+}
+
+#head{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    color: #1f5f7b;
+}
+
+/* other pages */
+
+/* 1. college_more_info.html */
+/* Back btn container */
+.topnav {
+    overflow: hidden;
+    /* background-color: #333; */
+  }
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+  }
+
+/* College more information */
+ #clg-all-info{
+    background-color: #ffebcd54;
+    overflow: hidden;
+    padding: 40px;
+} 
+
+#clg-all-info h4{
+    color: #009688;
+}
+
+/* our respected teacher message */
+
+/* page 1 - PRESIDENT'S  MESSAGE */
+#T-message #p-mess{
+    color: #ff5722;
+}
+#T-message p{
+    font-size: 17px;
+
+}
+#T-message img{
+    float: left;
+    margin-right: 17px;
+}
+
+/* map and address container */
+/* Contant us page */
+.address{
+    padding: 26px 42px;
+    border: 2px solid red;
+    background-color: black;
+}
+.address h4 {
+    color: white;
+}
+.address p{
+    color: white;
+}
+
+/* About us page */
+ /* back ground image  */
+.bg-img-container{
+    /* overflow: hidden; */
+   padding: 0px!important;
+   position: relative;
+   text-align: left;
+   color: white;
+}
+.bg-img-container img{
+    filter: brightness(0.5);
+}
+
+.bg-img-container #two{
+    font-size: 24px;
+    color: #33ffe3;
+}
+.text {
+    position: absolute;
+    font-size: 40px;
+    top: 50%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+  }
+  /* On screens that are 729px or less, set the follwing properties will apply */
+  @media screen and (max-width: 729px) {
+    .text {
+        font-size: 25px;
+    }
+    .bg-img-container #two{
+        font-size: 18px;
+    }
+  }
+ 
+  /* team member  */
+  #team-member{
+    background-color: #9e9e9e33;
+  }
+.rohit-img img{
+      border-radius: 170px;
+      
+  }
+  .devloper-info{
+      /* background-color: red; */
+      padding: 20px;
+  }
+  .internal-col{
+      background-color:white;
+      padding: 15px
+  }
+  .linkedin-icon img{
+      width: 43px;
+  }
+
+  /* Department page */
+  .courses-table{
+      /* overflow-x: hidden; */
+      /* overflow-y: hidden; */
+      width: 60%;;
+    
+      margin-left: auto; 
+      margin-right: auto;
+  }
+  .table-head{
+    font-size: 27px;
+  }
+  @media screen and (max-width: 729px) {
+      .table-head{
+          font-size: 12px;
+         
+      }
+      
+  }
+
+/* department  pages*/
+  
+/* All Department */
+.filelds-contaniner{
+    padding: 36px;
+    background-color: whitesmoke;   
+}
+
+.filelds-contaniner h4{
+    color: forestgreen;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+}
+
+.filelds-contaniner li{
+    color: brown;
+    font-size: 19px;
+}
+.filelds-contaniner p{
+    color: brown;
+    font-size: 19px;
+}
